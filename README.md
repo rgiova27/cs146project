@@ -5,7 +5,7 @@ To edit updated version:
 3) Edit your file
 
 To upload changes on GitHub
-1) Select the proper branch  (this allows everyone to work at once with the latest working version)
+1) ***Select the proper branch***  (this allows everyone to work at once with the latest working version)
 2) Copy and paste your code onto it and save
 
 Eventually
