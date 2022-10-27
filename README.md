@@ -14,4 +14,3 @@ Eventually
    You may need to manually resolve conflicting code in this step
    This allows the next person to download everybody's changes instead of one person's upload which may be outdated in other files
    
-- Ryan
