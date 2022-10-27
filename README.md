@@ -1,4 +1,4 @@
-# cs146project
+# How to Properly Make Changes on GitHub
 To edit updated version:
 1) Download as zip file
 2) Unzip
@@ -13,3 +13,5 @@ Eventually
 2) Merge to main branch (now changes on main branch reflect your changes)
    You may need to manually resolve conflicting code in this step
    This allows the next person to download everybody's changes instead of one person's upload which may be outdated in other files
+   
+- Ryan
