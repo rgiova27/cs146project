@@ -17,6 +17,7 @@ Eventually
 # Our Progress and Next Steps
 HTML
 - update links to other html files and css files
+
 CSS File
 - default -> color, fonts, header/menu bar, footer
 - create another for picture css
