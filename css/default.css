@@ -1,5 +1,8 @@
   .navbar{
     overflow: hidden;
+    background-color: #d77a61;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
   }
   
   .navbar a{
@@ -20,6 +23,11 @@
   .navbar a.active{
     background-color:#223843;
     color:#dbd3d8;
+  }
+
+  .body{
+    /*background-color: #d77b614a; */
+    background-color: #e09c897c;
   }
 
   .p1 {
