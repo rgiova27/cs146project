@@ -1,13 +1,14 @@
-.navbar a{
+  .topnav a{
     float: left;
-    color:#d77a61;
+    background-color:#d77a61;
+    color:#223843;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
 
-  .navbar a.active{
+  .topnav a.active{
     background-color:#223843;
     color:#dbd3d8;
   }
