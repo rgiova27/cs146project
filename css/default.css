@@ -1,4 +1,8 @@
-  .topnav a{
+  .navbar{
+    overflow: hidden;
+  }
+  
+  .navbar a{
     float: left;
     background-color:#d77a61;
     color:#223843;
@@ -8,7 +12,16 @@
     font-size: 17px;
   }
 
-  .topnav a.active{
+  .navbar a:hover{
+    background-color: #e09c89;
+    color:#223843;
+  }
+
+  .navbar a.active{
     background-color:#223843;
     color:#dbd3d8;
+  }
+
+  .p1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
