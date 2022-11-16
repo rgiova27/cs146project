@@ -21,15 +21,15 @@
   }
 
   .navbar a.active{
-    background-color:#223843;
+    background-color:#3d6178;
     color:#dbd3d8;
   }
 
   .body{
-    /*background-color: #d77b614a; */
     background-color: #e09c897c;
   }
 
   .p1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #223843;
   }
