@@ -3,9 +3,9 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-
+        <link rel="stylesheet" href="css/default.css">
     </head>
-    <body>
+    <body class = "body">
         <div class="navbar">
             <a href="index.html">Home</a>
             <a href="menu.html">Menu</a>
@@ -14,37 +14,41 @@
             <a href="about.html">About Us</a>
             
         </div>
+        <img class="image_review" src="images/ReviewBG.jpg" alt = "Review Picture"/>
         <h1>We love to know what you think about us !</h1><br>
-        <img src="images/ReviewBG.jpg" alt = "Review Picture"/>
         <h2>Enter your Review: </h2>
         <form>
-            <label> First Name: </label><input type="text" placeholder="Your Fisrt Name"><label><small> &nbsp;* Leave this blank empty if you want to leave an anonymous comment</label>
+            <label for = "fname"> First Name: </label><input type="text" placeholder="Your Fisrt Name"><label><small> &nbsp;* Leave this blank empty if you want to leave an anonymous comment</small></label>
             <br><br>
-            <label> Second Name: </label><input type="text" placeholder="Your Second Name">
+            <label for = "lname"> Second Name: </label><input type="text" placeholder="Your Second Name">
             <br><br>
-            <label> Phone number: </label><input type="text" placeholder="Your Phone number">
+            <label for = "phone_num"> Phone number: </label><input type="text" placeholder="Your Phone number">
             <br><br>
-            <label> Overall Comment: </label><input type="text" placeholder="Your Thougth here">
+            <label for = "comment"> Overall Comment: </label><input type="text" placeholder="Your Thougth here">
             <br><br>
             <input type="submit" value="Submit">
         </form>
         <br><br><br>
 
         <h3>Reviews</h3>
-        <div>
-            <p>By <strong>Eric Yang</strong> on 2022-10-29</p>
-            <p>This is a great resturant ~</p>
+        <div class="div_review">
+            <div>
+                <p>By <strong>Eric Yang</strong> on <time>2022-10-29</time></p>
+                <p>This is a great restghhhhh hhhhhhhhhh hhhhhhhhhhhjh jkhjkkgg hgfhfdfgdf sdssddgfdgdd fgdghhhh hhhhhhhh hhhhggg gggggg gggggggggg ggggggg gggggg gurant ~</p>
+                <p>This is a great resturant ~</p>
+            </div>
+            <hr>
+            <div>
+                <p>By <strong>???</strong> <time>2022-10-29</time></p>
+                <p>This is a good resturant ~</p>
+            </div>
+            <hr>
         </div>
-        <hr/>
-        <div>
-            <p>By <strong>???</strong> 2022-10-29</p>
-            <p>This is a good resturant ~</p>
-        </div>
-        <hr/>
+        
 
         <br><br><br>
         <h4>Let us know you directly: </h4>
-        <p>
+        <p class = "p1">
             Phone: (732)-911-9911
             <br>
             Email:
