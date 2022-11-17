@@ -32,4 +32,26 @@
   .p1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #223843;
+
+  }
+
+  /* Review Added 11/17 Eric*/
+  .image_review {
+    position: fixed;
+    top: 15%;
+    right: 3%;
+    height: 75%;
+    width: 50%;
+  }
+  .div_review{
+    width: 40%;
+  }
+
+  /* Menu Added 11/17 Eric */
+  .div_menu{
+    text-align: center;
+  }
+  .ul_menu{
+    display:inline-block; 
+    text-align: left;
   }
