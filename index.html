@@ -4,9 +4,9 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-
+        <link rel="stylesheet" href="css/default.css">
     </head>
-    <body>
+    <body class="body">
         <div class="navbar">
             <a class="active" href="index.html">Home</a>
             <a href="menu.html">Menu</a>
@@ -15,38 +15,52 @@
             <a href="about.html">About Us</a>
             
         </div>
-        <p><u>Disclaimer</u>: The navigation bar is a work in progress.<p>
-        <input type="text" placeholder="Search..">
+        <div class="titlecontainer">
+            <img class="titleimage" src="images/restaurantinside.jpg">
+            <div class="title">The Little Chef that Could</div>
+            <div class="caption">"Saucing up meals for decades"</div>
+        </div>
 
-        <h1>The Little Chef that Could</h1>
-        <h3>Saucing up meals for decades</h3>
+        <div class="menucontainer1">
+            <a href="menu.html">
+                <img src="images/menu1.jpg" width="1160" height="774" />
+                <div class="menucontent">
+                <div class="menutext1">View Our Menu</div>
+                </div>
+            </a>
+          </div>
 
-        <img src="images/restaurantinside.jpg">
-        <br>
-        <img src="images/restaurantoutside.jpg">
+        <!--<img src="images/restaurantoutside.jpg">-->
 
-        <p>Click here make reservation.</p>
+        <p class="p1">Learn more about us</p>
 
-        <p>Learn more about us</p>
-
-        <p>Click here to get alerts</p>
     </body>
     <footer>
-        <p>
-            Hours:
-            Monday to Thursday 9AM - 8PM
-            Friday and Saturday 9AM - 10PM
-            Sunday Closed
-            <br>
-            Address: 169 Washington Street, Hoboken, NJ 07030
-            <br>
-            Phone: (732)-911-9911
-            <br>
-            Email:
-            <a href="mailto:LCC@example.com">LCC@gmail.com</a>
-            <br>
-            Social Media:
-            <a href="https://www.instagram.com/">Instagram</a>
-        </p>
+        <div class="footer">
+            <span class="rightfooter">
+                <div class="footercategory">Address:</div>
+                169 Washington Street<br>
+                Hoboken, NJ<br>
+                07030<br><br>
+                <div class="footercategory">Phone:</div>
+                (732)-911-9911
+            </span>
+            <span class="leftfooter">
+                <div class="footercategory">Hours:</div>
+                Monday to Thursday<br>9AM - 8PM<br>
+                Friday and Saturday<br>9AM - 10PM<br>
+                Sunday<br>
+                <div class="red">
+                    Closed
+                </div>
+                <br>
+            </span>
+            <p class="centerfooter">
+                <a class="footercategory2" href="mailto:LCC@example.com">Email</a>
+                <br>
+                <a class="footercategory2" href="https://www.instagram.com/">Instagram</a>
+            </p>
+            
+        </div>
     </footer>
 </html>
