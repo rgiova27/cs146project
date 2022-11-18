@@ -35,6 +35,38 @@
 
   }
 
+.image_mozz {
+  position: fixed;
+  top: 30%;
+  left: 3%;
+  height: 30%;
+  width: 25%;
+}
+
+.image_panini {
+  position: fixed;
+  top: 60%;
+  left: 3%;
+  height: 30%;
+  width: 25%;
+}
+
+.image_steaksandwich {
+  position: fixed;
+  top: 30%;
+  right: 3%;
+  height: 30%;
+  width: 25%;
+}
+
+.image_cannoli {
+  position: fixed;
+  top: 60%;
+  right: 3%;
+  height: 30%;
+  width: 25%;
+}
+
   /* Review Added 11/17 Eric*/
   .image_review {
     position: fixed;
