@@ -67,10 +67,10 @@
     color: #2f64cd;
   }
   .footercategory2:link {
-    color: green
+   color: rgb(121, 140, 252)
   }
   .footercategory2:hover {
-    color: greenyellow;
+    color: rgb(171, 184, 255);
   }
   .footercategory2:visited {
     color: aqua;
