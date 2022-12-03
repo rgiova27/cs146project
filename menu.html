@@ -3,6 +3,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <script src="./js/menu.js"></script> 
         <link rel="stylesheet" href="css/default.css">
     </head>
     <body class="body">
@@ -12,50 +13,50 @@
             <a href="reviews.html">Reviews</a>
             <a href="eventsandcatering.html">Events and Catering</a>
             <a href="about.html">About Us</a>
-            <input type="text" placeholder="Search..">
+            <input type="text" id="searched" placeholder="Search..." onkeyup="searching()">
+
             
         </div>
-
-        <div  class="div_menu">
+        <div class="div_menu">
             <h1> Menu </h1>
             <h2> Appetizers </h2>
             <ul class="ul_menu"> 
-                <li> Mozzerella Sticks................$12.99</li>
-                <li> Nachos.................................$15.99</li>
-                <li> BBQ Wings.........................$13.99</li>
-                <li> Pulled Pork Sliders..............$14.99</li>
-                <li> French Fries...........................$9.99</li>
-                <li> Garlic Bread........................$12.99</li>
+                <li  class="food"> Mozzerella Sticks................$12.99</li>
+                <li  class="food"> Nachos.................................$15.99</li>
+                <li  class="food"> BBQ Wings.........................$13.99</li>
+                <li  class="food"> Pulled Pork Sliders..............$14.99</li>
+                <li  class="food"> French Fries...........................$9.99</li>
+                <li  class="food"> Garlic Bread........................$12.99</li>
             </ul>
 
         <h2> Entrees </h2>
             <ul class="ul_menu">
-                <li> Cheeseburger........................$14.99</li>
-                <li> Cheesesteak..........................$13.99</li>
-                <li> Chicken Tenders...................$12.99</li>
-                <li> Chicken Parm Panini............$13.99</li>
-                <li> BLT Sandwich......................$12.99</li>
-                <li> Steak Sandwich....................$14.99</li>
+                <li class="food"> Cheeseburger........................$14.99</li>
+                <li class="food"> Cheesesteak..........................$13.99</li>
+                <li class="food"> Chicken Tenders...................$12.99</li>
+                <li class="food"> Chicken Parm Panini............$13.99</li>
+                <li class="food"> BLT Sandwich......................$12.99</li>
+                <li class="food"> Steak Sandwich....................$14.99</li>
             </ul>
         <h2> Desserts </h2>
             <ul class="ul_menu">
-                <li> Cheesecake.............................$6.99</li>
-                <li> Lava Cake..............................$5.99</li>
-                <li> Cannolis.................................$6.99</li>
-                <li> Apple Crumble......................$7.99</li>
+                <li class="food"> Cheesecake.............................$6.99</li>
+                <li class="food"> Lava Cake..............................$5.99</li>
+                <li class="food"> Cannolis.................................$6.99</li>
+                <li class="food"> Apple Crumble......................$7.99</li>
             </ul>
         <h2> Beverages </h2>
             <ul class="ul_menu"> 
-                <li> Soda: Coke, Sprite, Gingerale....$1.99</li>
-                <li> Lemonade...................................$2.99</li>
-                <li> Iced Tea......................................$2.99</li>
-                <li> Housemade Punch......................$3.99</li>
+                <li class="food"> Soda: Coke, Sprite, Gingerale....$1.99</li>
+                <li class="food"> Lemonade...................................$2.99</li>
+                <li class="food"> Iced Tea......................................$2.99</li>
+                <li class="food"> Housemade Punch......................$3.99</li>
             </ul>
+        </div>
         <img class="image_mozz" src="images/Mozzarella-Sticks.jpg" alt = "Mozzerella Sticks"/>
         <img class="image_panini" src="images/chickenparmpanini.jpg" alt="Chicken Parm Panini">
         <img class="image_cannoli" src="images/cannolis.jpg" alt="Cannoli">
         <img class="image_steaksandwich" src="images/steaksandwich.jpg" alt="Steak Sandwich">
-        
         
     </body>
     <footer>
