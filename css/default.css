@@ -3,6 +3,9 @@
     #slider-image{max-width: 100%;}
     #flash-ad {display: none;}
 
+    .food {
+      display: list-item;
+    }
     .navbar{
         overflow: hidden;
         background-color: #d77a61;
@@ -230,6 +233,9 @@
 
 @media only screen and (min-width:481px) and (max-width:768px)
 {
+    .food {
+      display: list-item;
+    }
     .navbar{
         overflow: hidden;
         background-color: #d77a61;
@@ -457,6 +463,9 @@
 
 @media only screen and (min-width:769px)
 {
+    .food {
+      display: list-item;
+    }
     .navbar{
         overflow: hidden;
         background-color: #d77a61;
