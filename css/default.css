@@ -20,7 +20,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 12px;
       }
       
       .navbar a:hover{
@@ -166,36 +166,32 @@
       }
       /*changes above*/
       
+      .search{
+        float: none;
+        position: absolute;
+        top: 7.5%;
+        left: 35%;
+      }
+
       .image_mozz {
-        position: fixed;
-        top: 10%;
-        left: 3%;
         height: 30%;
         width: 25%;
+        padding-left: 25px;
       }
       
       .image_panini {
-        position: fixed;
-        top: 40%;
-        left: 3%;
         height: 30%;
-        width: 25%;
+        width: 26.5%;
       }
       
       .image_steaksandwich {
-        position: fixed;
-        top: 10%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        height: 50%;
+        width: 35%;
       }
       
       .image_cannoli {
-        position: fixed;
-        top: 40%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        width: 0%;
+        height: 0%;
       }
       
       /* Review Added 11/17 Eric*/
@@ -296,7 +292,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 14px;
       }
       
       .navbar a:hover{
@@ -442,36 +438,32 @@
       }
       /*changes above*/
       
+      .search{
+        float: none;
+        position: absolute;
+        top: 7.5%;
+        left: 35%;
+      }
+
       .image_mozz {
-        position: fixed;
-        top: 10%;
-        left: 3%;
         height: 30%;
         width: 25%;
+        padding-left: 25px;
       }
       
       .image_panini {
-        position: fixed;
-        top: 40%;
-        left: 3%;
         height: 30%;
-        width: 25%;
+        width: 26.5%;
       }
       
       .image_steaksandwich {
-        position: fixed;
-        top: 10%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        height: 50%;
+        width: 35%;
       }
       
       .image_cannoli {
-        position: fixed;
-        top: 40%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        width: 0%;
+        height: 0%;
       }
       
       /* Review Added 11/17 Eric*/
