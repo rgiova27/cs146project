@@ -3,6 +3,9 @@
     #slider-image{max-width: 100%;}
     #flash-ad {display: none;}
 
+    .food {
+      display: list-item;
+    }
     .navbar{
         overflow: hidden;
         background-color: #d77a61;
@@ -17,7 +20,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 12px;
       }
       
       .navbar a:hover{
@@ -84,7 +87,7 @@
         color: brown
       }
       
-      .title {
+       .title {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -111,11 +114,11 @@
         text-align: center;
         font-family: 'Lucida Handwriting', sans-serif;
       }
+      /*Changed below*/
       .menucontainer1 {
         position: relative;
-        /*padding: 0;*/
-        padding-top: 300px;
-        width: 1160px;
+        padding-top: 12px;
+        width: auto;
         display: block;
         cursor: pointer;
         overflow: hidden;
@@ -123,16 +126,16 @@
         margin-right: auto;
       }
       .menucontent {
-        margin-top: 300px;
+        margin-top: 12px;
         opacity: 0;
-        font-size: 40px;
+        font-size: 11px;
         position: absolute;
         top: 0;
-        left: 0;
+        left: 15%;
         color: #223843;
-        background-color: rgba(200, 200, 200, 0.5);
-        width: 1160px;
-        height: 774px;
+        background-color: rgba(200, 200, 200, 0.169);
+        width: 212px;
+        height: 112px;
         -webkit-transition: all 400ms ease-out;
         -moz-transition: all 400ms ease-out;
         -o-transition: all 400ms ease-out;
@@ -151,52 +154,59 @@
       }
       .menucontainer1 .menucontent:hover .menutext1 {
         opacity: 1;
-        transform: translateY(387px);
-        -webkit-transform: translateY(387px);
+        transform: translateY(66px);
+        -webkit-transform: translateY(66px);
       }
+      .menucontainer1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 175px;
+        height: 112px;
+      }
+      /*changes above*/
       
+      .search{
+        float: none;
+        position: absolute;
+        top: 7.5%;
+        left: 35%;
+      }
+
       .image_mozz {
-        position: fixed;
-        top: 10%;
-        left: 3%;
         height: 30%;
         width: 25%;
+        padding-left: 25px;
       }
       
       .image_panini {
-        position: fixed;
-        top: 40%;
-        left: 3%;
         height: 30%;
-        width: 25%;
+        width: 26.5%;
       }
       
       .image_steaksandwich {
-        position: fixed;
-        top: 10%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        height: 50%;
+        width: 35%;
       }
       
       .image_cannoli {
-        position: fixed;
-        top: 40%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        width: 0%;
+        height: 0%;
       }
       
-      /* Review Added 11/17 Eric*/
+      /* Review Modified 12/10 Eric*/
       .image_review {
-        position: fixed;
-        top: 15%;
-        right: 3%;
-        height: 75%;
-        width: 50%;
+        position: relative;
+        top: 3px;
+        width: 60%;
       }
       .div_review{
-        width: 40%;
+        width: 85%;
+      }
+
+      /* Review Added 12/10 Eric*/
+      .reminder{
+        display: inline-block;
       }
       
       /* Menu Added 11/17 Eric */
@@ -226,10 +236,51 @@
         clear: both;
         display: table;
       }
+      /*My additions*/
+      .aboutcontainer {
+        position: relative;
+        /*padding: 0;*/
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutcontainer img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .aboutcontainer .about_us_btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #223843;
+      color: white;
+      font-size: 5px;
+      padding: 4px 8px;
+      border: none;
+      cursor: pointer;
+      border-radius: 1px;
+      text-align: center;
+    }
+
+    .aboutcontainer .about_us_btn:hover {
+      background-color: #0b2431;
+    }
+    /*my additions above*/   
 }
 
 @media only screen and (min-width:481px) and (max-width:768px)
 {
+    .food {
+      display: list-item;
+    }
     .navbar{
         overflow: hidden;
         background-color: #d77a61;
@@ -244,7 +295,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 14px;
       }
       
       .navbar a:hover{
@@ -316,7 +367,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 72px;
+        font-size: 36px;/*Changed*/
         text-align: center;
         font-family: 'Lucida Handwriting', sans-serif;
       }
@@ -334,15 +385,15 @@
         top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 24px;
+        font-size: 12px;/*Changed*/
         text-align: center;
         font-family: 'Lucida Handwriting', sans-serif;
       }
+      /*Changed below*/
       .menucontainer1 {
         position: relative;
-        /*padding: 0;*/
-        padding-top: 300px;
-        width: 1160px;
+        padding-top: 25px;
+        width: auto;
         display: block;
         cursor: pointer;
         overflow: hidden;
@@ -350,16 +401,16 @@
         margin-right: auto;
       }
       .menucontent {
-        margin-top: 300px;
+        margin-top: 25px;
         opacity: 0;
-        font-size: 40px;
+        font-size: 22px;
         position: absolute;
         top: 0;
-        left: 0;
+        left: 15%;
         color: #223843;
-        background-color: rgba(200, 200, 200, 0.5);
-        width: 1160px;
-        height: 774px;
+        background-color: rgba(200, 200, 200, 0.169);
+        width: 425px;
+        height: 225px;
         -webkit-transition: all 400ms ease-out;
         -moz-transition: all 400ms ease-out;
         -o-transition: all 400ms ease-out;
@@ -378,54 +429,63 @@
       }
       .menucontainer1 .menucontent:hover .menutext1 {
         opacity: 1;
-        transform: translateY(387px);
-        -webkit-transform: translateY(387px);
+        transform: translateY(112px);
+        -webkit-transform: translateY(112px);
       }
+      .menucontainer1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height: 225px;
+      }
+      /*changes above*/
       
+      .search{
+        float: none;
+        position: absolute;
+        top: 7.5%;
+        left: 35%;
+      }
+
       .image_mozz {
-        position: fixed;
-        top: 10%;
-        left: 3%;
         height: 30%;
         width: 25%;
+        padding-left: 25px;
       }
       
       .image_panini {
-        position: fixed;
-        top: 40%;
-        left: 3%;
         height: 30%;
-        width: 25%;
+        width: 26.5%;
       }
       
       .image_steaksandwich {
-        position: fixed;
-        top: 10%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        height: 50%;
+        width: 35%;
       }
       
       .image_cannoli {
-        position: fixed;
-        top: 40%;
-        right: 3%;
-        height: 30%;
-        width: 25%;
+        position: relative;
+        top: 5%;
+        width: 0%;
+        height: 0%;
       }
       
-      /* Review Added 11/17 Eric*/
+      /* Review modified 12/10 Eric*/
       .image_review {
-        position: fixed;
-        top: 15%;
-        right: 3%;
-        height: 75%;
-        width: 50%;
+        position: relative;
+        top: 5px;
+        width: 60%;
       }
       .div_review{
-        width: 40%;
+        width: 85%;
       }
-      
+
+      /* Review Added 12/10 Eric*/
+      .reminder{
+        display: inline-block;
+      }
+
       /* Menu Added 11/17 Eric */
       .div_menu{
         text-align: center;
@@ -453,10 +513,51 @@
         clear: both;
         display: table;
       }
+      /*My additions*/
+      .aboutcontainer {
+        position: relative;
+        /*padding: 0;*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutcontainer img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .aboutcontainer .about_us_btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #223843;
+      color: white;
+      font-size: 10px;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 2px;
+      text-align: center;
+    }
+
+    .aboutcontainer .about_us_btn:hover {
+      background-color: #0b2431;
+    }
+    /*my additions above*/      
 }
 
 @media only screen and (min-width:769px)
 {
+    .food {
+      display: list-item;
+    }
     .navbar{
         overflow: hidden;
         background-color: #d77a61;
@@ -565,11 +666,11 @@
         text-align: center;
         font-family: 'Lucida Handwriting', sans-serif;
       }
+      /*Changed below*/
       .menucontainer1 {
         position: relative;
-        /*padding: 0;*/
-        padding-top: 300px;
-        width: 1160px;
+        padding-top: 50px;
+        width: auto;
         display: block;
         cursor: pointer;
         overflow: hidden;
@@ -577,16 +678,16 @@
         margin-right: auto;
       }
       .menucontent {
-        margin-top: 300px;
+        margin-top: 50px;
         opacity: 0;
         font-size: 40px;
         position: absolute;
         top: 0;
-        left: 0;
+        left: 15%;
         color: #223843;
-        background-color: rgba(200, 200, 200, 0.5);
-        width: 1160px;
-        height: 774px;
+        background-color: rgba(200, 200, 200, 0.169);
+        width: 850px;
+        height: 450px;
         -webkit-transition: all 400ms ease-out;
         -moz-transition: all 400ms ease-out;
         -o-transition: all 400ms ease-out;
@@ -605,9 +706,17 @@
       }
       .menucontainer1 .menucontent:hover .menutext1 {
         opacity: 1;
-        transform: translateY(387px);
-        -webkit-transform: translateY(387px);
+        transform: translateY(225px);
+        -webkit-transform: translateY(225px);
       }
+      .menucontainer1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        height: 450px;
+      }
+      /*changes above*/
       
       .image_mozz {
         position: fixed;
@@ -641,16 +750,24 @@
         width: 25%;
       }
       
-      /* Review Added 11/17 Eric*/
+      /* Review Modified 12/10 Eric*/
       .image_review {
         position: fixed;
         top: 15%;
         right: 3%;
-        height: 75%;
-        width: 50%;
+        height: 56%;
+        width: 45%;
       }
       .div_review{
         width: 40%;
+      }
+      
+      /* Review Added 12/10 Eric*/
+      .reminder{
+        display: inline-block;
+      }
+      .div_input{
+        width: 50%;
       }
       
       /* Menu Added 11/17 Eric */
@@ -680,5 +797,42 @@
         clear: both;
         display: table;
       }
- 
+      /*My additions*/
+      .aboutcontainer {
+          position: relative;
+          /*padding: 0;*/
+          padding-top: 25px;
+          padding-bottom: 25px;
+          width: 100%;
+          display: block;
+          overflow: hidden;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .aboutcontainer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .aboutcontainer .about_us_btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #223843;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .aboutcontainer .about_us_btn:hover {
+        background-color: #0b2431;
+      }
+      /*my additions above*/
 }
