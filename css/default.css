@@ -194,16 +194,19 @@
         height: 0%;
       }
       
-      /* Review Added 11/17 Eric*/
+      /* Review Modified 12/10 Eric*/
       .image_review {
-        position: fixed;
-        top: 15%;
-        right: 3%;
-        height: 60%;
-        width: 50%;
+        position: relative;
+        top: 3px;
+        width: 60%;
       }
       .div_review{
-        width: 40%;
+        width: 85%;
+      }
+
+      /* Review Added 12/10 Eric*/
+      .reminder{
+        display: inline-block;
       }
       
       /* Menu Added 11/17 Eric */
@@ -462,22 +465,27 @@
       }
       
       .image_cannoli {
+        position: relative;
+        top: 5%;
         width: 0%;
         height: 0%;
       }
       
-      /* Review Added 11/17 Eric*/
+      /* Review modified 12/10 Eric*/
       .image_review {
-        position: fixed;
-        top: 15%;
-        right: 3%;
-        height: 60%;
-        width: 50%;
+        position: relative;
+        top: 5px;
+        width: 60%;
       }
       .div_review{
-        width: 40%;
+        width: 85%;
       }
-      
+
+      /* Review Added 12/10 Eric*/
+      .reminder{
+        display: inline-block;
+      }
+
       /* Menu Added 11/17 Eric */
       .div_menu{
         text-align: center;
@@ -742,16 +750,24 @@
         width: 25%;
       }
       
-      /* Review Added 11/17 Eric*/
+      /* Review Modified 12/10 Eric*/
       .image_review {
         position: fixed;
         top: 15%;
         right: 3%;
-        height: 60%;
-        width: 50%;
+        height: 56%;
+        width: 45%;
       }
       .div_review{
         width: 40%;
+      }
+      
+      /* Review Added 12/10 Eric*/
+      .reminder{
+        display: inline-block;
+      }
+      .div_input{
+        width: 50%;
       }
       
       /* Menu Added 11/17 Eric */
