@@ -4,8 +4,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/default.css">
+        <script type="text/javascript" src="js/reviews.js"></script>
     </head>
-    <body class = "body">
+    <body class = "body" onload="welcome()">
         <div class="navbar">
             <a href="index.html">Home</a>
             <a href="menu.html">Menu</a>
@@ -17,29 +18,36 @@
         <img class="image_review" src="images/ReviewBG.jpg" alt = "Review Picture"/>
         <h1>We love to know what you think about us !</h1><br>
         <h2>Enter your Review: </h2>
-        <form>
-            <label for = "fname"> First Name: </label><input type="text" placeholder="Your Fisrt Name"><label><small> &nbsp;* Leave this blank empty if you want to leave an anonymous comment</small></label>
+        <div class="div_input">
+            <input type = "checkbox" id = "anonymous" onclick="anonymous(this)"> <label><small> &nbsp;* I like to comment anonymously</small> </label>
             <br><br>
-            <label for = "lname"> Second Name: </label><input type="text" placeholder="Your Second Name">
+            <label> First Name: </label><input type="text" id = "first" placeholder="Your First Name"><label class="reminder"><small> &nbsp;* Leave this blank empty if you want to hide your first name</small></label>
             <br><br>
-            <label for = "phone_num"> Phone number: </label><input type="text" placeholder="Your Phone number">
+            <label> Second Name: </label><input type="text" id = "second" placeholder="Your Second Name"><label class="reminder"><small> &nbsp;* Leave this blank empty if you want to hide your second name</small></label>
             <br><br>
-            <label for = "comment"> Overall Comment: </label><input type="text" placeholder="Your Thougth here">
+            <label> Phone number: </label><input type="tel" id = "phone" placeholder="1234567890" maxlength="10">
             <br><br>
-            <input type="submit" value="Submit">
-        </form>
+            <label> Rate us: </label><select id = "rate"><option>1</option><option>2</option><option>3</option><option>4</option><option selected = "selected">5</option></select>
+            <br><br>
+            <label> Enter Comment: </label><br><br>
+            <textarea id = "comment" rows = "4" cols = "45" placeholder="Your Thought here ~"></textarea>
+            <br><br>
+            <button onclick="add_comment()"> Submit </button>
+        </div>
         <br><br><br>
 
         <h3>Reviews</h3>
-        <div class="div_review">
+        <button onclick="scroll_buttom()"> See the latest review</button>
+        <div class="div_review" id = "div_comment">
             <div>
-                <p>By <strong>Eric Yang</strong> on <time>2022-10-29</time></p>
+                <p>Eric Yang on <time>2022-10-29</time>: </p>
+                <p>Rating: 5</p>
                 <p>This is a great restghhhhh hhhhhhhhhh hhhhhhhhhhhjh jkhjkkgg hgfhfdfgdf sdssddgfdgdd fgdghhhh hhhhhhhh hhhhggg gggggg gggggggggg ggggggg gggggg gurant ~</p>
-                <p>This is a great resturant ~</p>
             </div>
             <hr>
             <div>
-                <p>By <strong>???</strong> <time>2022-10-29</time></p>
+                <p>??? on <time>2022-10-29</time>: </p>
+                <p>Rating: 5</p>
                 <p>This is a good resturant ~</p>
             </div>
             <hr>
